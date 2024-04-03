@@ -3,25 +3,22 @@
     padding: 0px;
     margin: 0px;
 }
-body
-{
-    /* background-color:#eaf9fc ; */
-}
+
 .nav_common
 {
-    
-    background-color: aqua;
-}
-.nav
-{
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: flex-start;
-    background-color: aqua;
-}
-.nav1
-{
-    
     display:flex;
-    background-color: aqua;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav2
+{
+    
+    width:100%;
+    position:relative;
+}
+.navbar-brand
+{
+    position:absolute;
+    left:50%;
+    top:0px;
 }
