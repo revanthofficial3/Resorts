@@ -7,3 +7,21 @@ body
 {
     /* background-color:#eaf9fc ; */
 }
+.nav_common
+{
+    
+    background-color: aqua;
+}
+.nav
+{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    background-color: aqua;
+}
+.nav1
+{
+    
+    display:flex;
+    background-color: aqua;
+}
