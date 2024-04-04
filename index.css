@@ -3,22 +3,22 @@
     padding: 0px;
     margin: 0px;
 }
-
-.nav_common
+.nav-link,.dropdown-item,.btn-out
 {
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+    font-size:1.2rem;
+    font-weight:bold;
 }
-.nav2
+.btn-out
+{
+    margin-right: 50px;
+}
+.nav-link:hover
+{
+    background-color: rgb(228, 244, 251);
+    
+}
+.carousel-item
 {
     
-    width:100%;
-    position:relative;
-}
-.navbar-brand
-{
-    position:absolute;
-    left:50%;
-    top:0px;
+
 }
