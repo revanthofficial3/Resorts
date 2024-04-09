@@ -1,0 +1,138 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.gallery_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.gallery_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.gallery_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:45%;
+    font-size:2.7rem;
+    font-family: blkcry;
+    color:black;
+    background-color: rgba(0, 0, 0, .0);
+}
+.gallery_common
+{
+    display:grid;
+    /* grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); */
+    grid-template-columns:repeat(4,1fr);
+    grid-auto-flow: dense;
+    grid-auto-rows:200px;
+    /* height:fit-content; */
+    width:68%;
+    margin:auto;
+    border:10px solid rgb(250, 250, 4);
+    gap:5px;
+    
+}
+.gallery_head 
+{
+    text-align: center;
+    color:aqua;
+    font-size:2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:10px;
+}
+.gallery_div
+{
+    height:200px;
+    width:auto;
+    
+}
+.gallery_photo
+{
+    /* height:130%;
+    width:100%; */
+    width:100%;
+    /* border: 2px solid white; */
+    height:100%;
+    object-fit:cover;
+    display:block
+}
+.photo1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height:100%;
+}
+.photo10
+{
+    grid-column:span 2;
+    width:100%;
+    height:86.3%; 
+}
+.photo3
+{
+    /* grid-row:1/3; */
+    grid-column:span 2;
+    width:100%;
+    height:100%;
+}
+.photo6
+{
+    grid-column:span 2;
+    width: 100%;
+    height:100%;
+}
+.photo7
+{
+    grid-column:span 2;
+    width:100%;
+    height:100%;
+}
+.photo12
+{
+    grid-column:span 2;
+    width:100%;
+    height:100%;
+}
+.photo14
+{
+    grid-column:span 2;
+    width:100%;
+    height:100%;
+}
+.photo16
+{
+    grid-column:span 2;
+    width:100%;
+    height:100%;
+}
+.photo18
+{
+    grid-column:span 2;
+    width:100%;
+    height:100%;
+}
+.gallery_para
+{
+    font-size:1.5rem;
+    font-family: speed;
+   word-spacing: 8px;
+   line-height: 45px;
+    text-align: center;
+    margin:20px 10%;
+}

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+@font-face {
+    font-family: calli;
+    src: url(./images/fonts/calligraphy/CalligraphyFLF.ttf);
+}
+@font-face {
+    font-family: high;
+    src: url(./images/fonts/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.facility_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.facility_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.facility_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:45%;
+    font-size:2.7rem;
+    /* font-family: speed; */
+    color:white;
+    background-color: rgba(0, 0, 0, .0);
+}
+.card_common
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    margin:20px;
+}
+.rooms_head1
+{
+    font-size:2rem;
+    font-family: high;
+    text-align: center;
+    color:aqua;
+    margin: 10px;
+}
+.rooms_para
+{
+    font-size:1.7rem;
+    font-family: calli;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 8px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rooms_img
+{
+    overflow: hidden;
+}
+.rooms_head3
+{
+    font-weight: bold;
+    margin-left: 5px;
+    color:rgb(245, 237, 3);
+}
+.card-body,.list-group-item
+{
+    background-color: orangered;
+    color:white;
+}
+.card-img-top
+{
+    transform: scale(1);
+    transition: .2s;
+    
+}
+.card-img-top:hover
+{
+    transform: scale(1.5);
+    overflow: hidden;
+}
+.card-title
+{
+    /* font-size:2rem; */
+    font-family: high;
+    color:rgb(245, 237, 3);
+}
+.card-text,.list-group-item
+{
+    font-family: calli;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
