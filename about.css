@@ -1,0 +1,454 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+@font-face {
+    font-family: calli;
+    src: url(./images/fonts/calligraphy/CalligraphyFLF.ttf);
+}
+@font-face {
+    font-family: high;
+    src: url(./images/fonts/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+@font-face {
+    font-family: typo;
+    src: url(./images/fonts/organo/Organo.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.about_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.about_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.about_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:45%;
+    font-size:2.7rem;
+    font-family: blkcry;
+    color:black;
+    background-color: rgba(0, 0, 0, .0);
+}
+/* our story */
+.about_story
+{
+    background-image: url(./images/358870550.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 108vh;
+     /*filter: blur(1px); */
+    /* position: relative; */
+    overflow: hidden;
+}
+.about_story_common1
+{
+    position: relative;
+}
+/* .about_story_common
+{
+    margin:20px 10%;
+    padding:15px 35px;
+    
+   background: rgba(0, 0, 0, 0.2);
+   height: 100vh;
+   overflow: hidden;
+    position: absolute;
+    
+    top:0px;
+    left:0px;
+    z-index: 99;
+    border-radius:20px;
+    
+} */
+.about_story_common
+{
+    margin:20px 10%;
+    padding:15px 35px;
+   
+   background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+   
+    top:0px;
+    left:0px;
+    z-index: 99;
+    border-radius:20px;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.about_story_head2
+{
+    font-size:1.3rem;
+    font-family: high;
+    text-align: center;
+    color:rgba(255, 238, 0, 0.966);
+    margin: 10px;
+}
+.about_story_para
+{
+    font-size:1rem;
+    font-family: typo;
+    word-spacing: 8px;
+    text-align: center;
+    color:white;
+    
+}
+/* employee */
+.employee_head2
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: high;
+    color:rgb(0, 0, 0);
+    margin-top: 10px;
+    
+}
+.employee_para
+{
+    font-size:1rem;
+    font-family:high;
+    color:white;
+    text-align: center;
+}
+.employee_common
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.employee_card
+{
+    height:400px;
+    width:250px;
+    position: relative;
+    cursor: pointer;
+  
+}
+.employee_img_common
+{
+    height:100%;
+    width:100%;
+}
+.employee_img_common:hover > :last-child
+{
+    height:100px;
+    width:300px;
+    top:300px;
+    left:0px;
+    /* transform: translatex(350px); */
+}
+.employee_card:hover
+{
+    height:400px;
+    width:300px;
+    
+}
+.employee_img
+{
+    height:100%;
+    width:100%;
+}
+.employee_overlay
+{
+    height: 400px;
+    width:250px;
+    background: rgba(46, 46, 181,.7);
+    opacity: .7;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.employee_head1
+{
+    font-weight: bolder;
+    display: block;
+    color:rgb(2, 117, 6);
+    margin:15px;
+    text-align: center;
+    font-family: high;
+    position: relative;
+}
+/* mission */
+.about_mission
+{
+    background-image: url(./images/photo8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    /* filter: blur(2px); */
+    position: relative;
+  /* -webkit-filter: blur(2px); */
+}
+.about_mission_common1
+{
+    position: relative;
+}
+.about_mission_common
+{
+    margin:20px 10%;
+    padding:15px 35px;
+    /* background-color: rgb(1, 118, 190); */
+   /* background: rgb(0,0,0); */
+   background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    /* top:105%; */
+    top:0px;
+    left:0px;
+    z-index: 99;
+    border-radius:20px;
+    height: 82vh;
+    overflow: hidden;
+    
+}
+
+.about_mission_head1,.about_story_head1
+{
+    font-size:2rem;
+    font-family: high;
+    text-align: center;
+    color:rgb(15, 96, 1);
+    margin: 10px;
+
+}
+.about_mission_head2
+{
+    font-size:1.3rem;
+    font-family: high;
+    text-align: center;
+    color:rgba(255, 238, 0, 0.966);
+    margin: 10px;
+}
+.about_mission_para
+{
+    font-size:1rem;
+    font-family: typo;
+    
+    /* line-height: 30px; */
+    word-spacing: 8px;
+    text-align: center;
+    color:white;
+}
+/* vision */
+.about_vision
+{
+    background-image: url(./images/photo9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 125vh;filter: blur(2px);
+    position: relative;
+}
+.about_vision_common
+{
+    margin:20px 10%;
+    padding:15px 35px;
+    /* background-color: rgb(1, 118, 190); */
+   /* background: rgb(0,0,0); */
+   background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    /* top:105%; */
+    height:117vh;
+    overflow: hidden;
+    top:0px;
+    left:0px;
+    z-index: 99;
+    border-radius:20px;
+}
+hr
+{
+    color:white;
+    
+}
+.about_img1_common
+{
+    display:flex;
+    justify-content: space-evenly;
+    
+    margin: 15px 10%;
+}
+.about_img1
+{
+    height:auto;
+    width:30%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px grey, -4px -4px 6px grey;
+}
+/* certificate */
+.about_certi_head1
+{
+    font-size:2rem;
+    font-family: high;
+    text-align: center;
+    color:rgb(1, 96, 77);
+    margin: 10px;
+}
+.about_certi_common
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px 10%;
+    justify-content: center;
+}
+.about_certi_img
+{
+    height:auto;
+    width:160px;
+    margin:10px;
+    border: 4px solid black;
+}
+
+
+
+@media screen and (max-width:500px) 
+{
+.about_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:25%;
+}
+.employee_img_common:hover > :last-child
+{
+    height:100px;
+    width:273px;
+    top:300px;
+}
+.about_story
+{
+    
+    height: 160vh;
+    
+}
+.about_story_common
+{
+    /* margin:20px 10%;
+    padding:15px 35px; */
+    height: 155vh;
+    /* overflow: hidden; */
+    
+}
+.about_mission
+{
+    height: 140vh;
+    
+}
+.about_mission_common
+{
+    
+    height: 135vh;
+    overflow: hidden;
+    
+}
+.about_img1_common
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.about_img1
+{
+    height:auto;
+    width:200px;
+    margin: 15px;
+}
+.pagination
+{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1000px){
+.about_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:35%;
+}
+.about_banner
+{
+    height:77vh;
+}
+.about_story_head2
+{
+    font-size:2rem;
+    
+}
+.about_story_para
+{
+    font-size:1.7rem;
+}  
+.about_mission
+{
+    height: 100vh;
+    
+}
+.about_mission_common
+{
+    
+    height: 95vh;
+    overflow: hidden;
+    
+}
+.about_mission_head2
+{
+    font-size:2rem;
+    
+}
+.about_mission_para
+{
+    font-size:1.7rem;
+} 
+.about_vision
+{
+    
+    height: 158vh;
+}
+.about_vision_common
+{   
+    height:153vh;
+
+}
+.about_img1
+{
+    height:auto;
+    width:300px;
+    margin: 15px;
+}
+}

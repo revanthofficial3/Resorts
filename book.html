@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./book.css">
+</head>
+<body>
+    <header> 
+        <a class="navbar-bran" href="index.html" id="img">
+          <img src="./images/logo.png" width="100px" class="logo">
+        </a>
+          
+          <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item bg-warning">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="facility.html">Facility</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rooms.html">Rooms & Games</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Events
+                    </a>
+                    <ul class="dropdown-menu  bg-warning" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item nav-link" href="wedding.html">Wedding</a></li>
+                      <li><a class="dropdown-item nav-link" href="parties.html">Parties</a></li>
+                      <li><a class="dropdown-item nav-link" href="conference.html">Conference</a></li>
+                      </ul>
+                  </li>
+  
+                </ul>
+                <div><a href="book.html"><button type="button" class="btn active btn-outline-light btn-lg btn-text mx-6">Book A Stay</button></a></div>
+              </div>
+            </div>
+  
+        </nav>
+      </header> 
+
+      <section >
+        <aside class="book_banner">
+            <img src="./images/image3/banner/thomas-haas-wfANLGIhOtM-unsplash.jpg" class="book_banner_img">
+            
+            <h1 class="book_banner_head">Book Now</h1>
+        </aside>
+    </section>
+
+    <section>
+      <div class="up_head">
+        <a href="#img" class="up_common"><img src="./images/fonts/icons8-arrow-up-64.png" class="up_icon"></a>
+      </div>
+      </section>
+
+    <section>
+        <h1 class="book_head1">Book Your Unforgettable Escape at Our Resort Today</h1>
+        <div class="book_center">
+        <div class="book_story_common1">
+            <div class="book_story"></div>
+            <div class="book_story_common">
+              <label id="inf1"></label><input type="text" name="name" id="name" placeholder="First Name"  oninput="demo()" autocomplete="off">
+                <label id="info1"></label><br>
+
+                <label id="inf2"></label><input type="text" name="name" id="name1" placeholder="Last Name"  oninput="demo1()" autocomplete="off">
+                <label id="info2"></label><br>
+
+                <!-- <div class="date1"><span class="in">Check-In</span><br>
+                <input type="date" name="date" id="date1" placeholder="Check-In" oninput="date3()"></div>
+                <div class="date2">
+                <span class="out">Check-Out</span><br>
+                <input type="date" name="date" id="date2" placeholder="Check-In" oninput="date4()"><br></div> -->
+
+                <div class="common_date">
+                <div>
+                  <span class="in">Check-In</span><br>
+                  <input type="date" name="date" id="date1" placeholder="Check-In" oninput="date3()">
+                </div>
+                  
+                  <div>
+                  <span class="out">Check-Out</span><br>
+                  <input type="date" name="date" id="date2" placeholder="Check-In" oninput="date4()">
+                  </div>
+                  </div>
+
+
+                <select name="rooms" id="rooms" oninput="dem2()">
+                    <option value="rooms">Rooms</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    
+                </select><label id="in3"></label><br>
+                <select name="adult" id="adult" oninput="dem1()">
+                    <option value="adult">Adult</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><label id="in2"></label><br>
+                <select name="child" id="child" oninput="dem()">
+                    <option value="child">Child</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><label id="in1"></label><br>
+                <label id="inf3"></label><input type="email" name="email" id="email" placeholder="Email" oninput="demo2()" autocomplete="off">
+                <label id="info3"></label><br>
+
+                <label id="inf4"></label><input type="number" name="number" id="number" placeholder="Mobile Number" maxlength="10" autocomplete="off"  oninput="demo3()">
+                <label id="info4"></label><br>
+
+                <label id="inf5"></label><input type="text" name="promocode" id="promocode" placeholder="PromoCode" autocomplete="off"  oninput="demo4()">
+                <label id="info5"></label><br>
+
+                <label id="inf6"></label><input type="text" name="agencyid" id="agencyid" placeholder="Agency ID(Mandatory)" autocomplete="off" oninput="demo5()">
+                <label id="info6"></label><br>
+
+                <label id="inf7"></label><textarea type="text" name="area" id="area" placeholder="Special Requirement" autocomplete="off"
+                 rows="3"  oninput="demo6()"></textarea><label id="info7"></label><br>
+
+
+                 <button type="button" class="btn btn-outline-warning btn-lg btn-text-dark mx-6" onclick="validate()">SUBMIT</button><br>
+                 <label id="info8" class="fill"></label>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+      <h1 class="book_head1">Location</h1>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22728.213577450144!2d55.12370937195706!3d25.12110550744224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f152c74b02311%3A0xa20406b35cb5b846!2sTaj%20Exotica%20Resort%20%26%20Spa%2C%20The%20Palm%2C%20Dubai!5e1!3m2!1sen!2sin!4v1713009680079!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <h3 class="book_head2">Sign up to receive Special Offers</h3>
+      <div class="subscribe_box">
+        <input type="email" name="email" id="email1" placeholder="Enter Email">
+        <button type="button" class="btn btn-outline-warning btn-lg btn-text-dark mx-6">SUBSCRIBE</button>
+       </div>
+    </section>
+
+    <section>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="./conference.html" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./about.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./facility.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="./rooms.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="./gallery.html">5</a></li>
+          <li class="page-item"><a class="page-link" href="./wedding.html">6</a></li>
+          <li class="page-item"><a class="page-link" href="./parties.html">7</a></li>
+          <li class="page-item"><a class="page-link" href="./conference.html">8</a></li>
+          <li class="page-item active"><a class="page-link" href="./book.html">9</a></li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+      <footer>
+        <div>
+          <div class="footer_common">
+          <div>
+            <h1 class="footer_head1">Address</h1>
+           <img src="./images/fonts/icons8-location-40.png" width="20px" class="footer_icon1">
+           <p class="footer_para"> Palm Jumeirah,<br>East Crescent,<br>The Palm Jumeirah,Dubai,<br> United Arab Emirates.</p>
+          </div>
+          <div>
+            <h1 class="footer_head1">Contact Us</h1>
+            <p class="footer_para"><img src="./images/fonts/icons8-android-phone-50.png" width="30px">
+            +971 4 275 4444</p>
+            
+            <p class="footer_para"><img src="./images/fonts/icons8-email-50.png" width="20px">
+            Royalluckystar@gmail.com</p>
+          </div>
+          <div>
+            <h1 class="footer_head1">Follow Us</h1>
+            <a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+    
+          </div>
+          </div>
+          <div>
+            <div>
+                  <hr>
+                  <p class="footer_para1">©2024 ROYAL LUCKY STAR RESORT & SPA, THE PALM, DUBAI. ALL RIGHTS RESERVED.</p>
+            </div>
+          </div>
+          <div>
+          </div>
+        </div>
+      </footer>
+      
+     
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+          var a = 1,b=1,c=1,d=1,e=1,f=1,g=1;
+          var x=1,y=1,z=1;
+          var d1=1,d2=1;
+
+          function demo(){
+          let name = document.querySelector('#name').value;
+          let regx = /([a-zA-Z0-9]{4,20})/;
+          let myinfo = document.querySelector('#info1');
+          let myinfo1 = document.querySelector('#inf1');
+          if(regx.test(name))
+          {
+          myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo1.style.width="25px";
+          a="2";
+          }else{
+          myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo.style.color = "red";
+          myinfo1.style.width="25px";
+          a="1";
+          }
+        }
+        function demo1(){
+          let name = document.querySelector('#name1').value;
+          let regx = /([a-zA-Z0-9]{4,20})/;
+          let myinfo = document.querySelector('#info2');
+          let myinfo1 = document.querySelector('#inf2');
+          if(regx.test(name))
+          {
+          myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo1.style.width="25px";
+          b="2";
+          }else{
+          myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo.style.color = "red";
+          myinfo1.style.width="25px";
+          b="1";
+          }
+        }
+
+        function demo2()
+{
+    let mail = document.querySelector('#email').value;
+    let regex = /([A-Za-z0-9]{4,20})+@+([a-zA-Z]{3,15})+\.+([a-zA-Z]{2,10})/;
+    let myinfo = document.querySelector('#info3');
+
+    let myinfo1 = document.querySelector('#inf3');
+
+    if(regex.test(mail))
+    {
+        myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+        myinfo.style.position = "relative";
+        myinfo.style.left = "-35px";
+        myinfo.style.top="-5px";
+        // myinfo1.style.display = "none";
+        myinfo1.style.width = "25px"
+        c="2";
+    }
+    else
+    {
+        myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+        myinfo.style.position = "relative";
+        myinfo.style.left = "-35px"; 
+        myinfo.style.top="-5px";  
+        myinfo1.style.width = "25px";
+        c="1";
+    }
+}
+function demo3()
+{
+    let mail = document.querySelector('#number').value;
+    let regex = /([0-9]{10,15})/
+    let myinfo = document.querySelector('#info4');
+    let myinfo1 = document.querySelector('#inf4');
+
+    if(regex.test(mail))
+    {
+        myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+        myinfo.style.position = "relative";
+        myinfo.style.left = "-35px"; 
+        myinfo.style.top="-5px"; 
+        myinfo1.style.width="25px";
+
+        d="2";
+        myinfo2.style.display = "none";
+    }
+    else
+    {
+        myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+        myinfo.style.position = "relative";
+        myinfo.style.left = "-35px"; 
+        myinfo.style.top="-5px"; 
+        myinfo1.style.width="25px";
+        d="1";
+        
+    }
+}
+      function demo4(){
+          let name = document.querySelector('#promocode').value;
+          let regx = /([a-zA-Z0-9]{6,20})/;
+          let myinfo = document.querySelector('#info5');
+          let myinfo1 = document.querySelector('#inf5');
+          if(regx.test(name))
+          {
+          myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo1.style.width="25px";
+
+          e="2";
+          }else{
+          myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo.style.color = "red";
+          myinfo1.style.width="25px";
+          e="1";
+          }
+        }
+
+
+        function demo5(){
+          let name = document.querySelector('#agencyid').value;
+          let regx = /([a-zA-Z0-9]{8,20})/;
+          let myinfo = document.querySelector('#info6');
+          let myinfo1 = document.querySelector('#inf6');
+          if(regx.test(name))
+          {
+          myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          myinfo1.style.width="25px";
+          f="2";
+          }else{
+          myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-5px";
+          // myinfo.style.color = "red";
+          myinfo1.style.width="25px";
+          f="1";
+          }
+        }
+
+        function demo6(){
+          let name = document.querySelector('#area').value;
+          let regx = /([a-zA-Z0-9]{5,20})/;
+          let myinfo = document.querySelector('#info7');
+          let myinfo1 = document.querySelector('#inf7');
+          if(regx.test(name))
+          {
+          myinfo.innerHTML = "<img src=\'tick.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-70px";
+          myinfo1.style.width="25px";
+          g="2";
+          }else{
+          myinfo.innerHTML = "<img src=\'wrong.png\' width=\'25px\'>";
+          myinfo.style.position="relative";
+          myinfo.style.left="-35px";
+          myinfo.style.top="-70px";
+          // myinfo.style.color = "red";
+          myinfo1.style.width="25px";
+          g="1";
+          }
+        }
+      function dem()
+      {
+        let name = document.querySelector('#child').value;
+          let regx = /([0-9]{0,20})/;
+          let myinfo = document.querySelector('#in1');
+          let myinfo1 = document.querySelector('#in');
+
+          if(regx.test(name)){
+            z="2";
+          }else{
+            z="1";
+          }
+      }
+      function dem1()
+      {
+        let name = document.querySelector('#adult').value;
+          let regx = /([0-9]{0,20})/;
+          let myinfo = document.querySelector('#in2');
+          let myinfo1 = document.querySelector('#in');
+
+          if(regx.test(name)){
+            y="2";
+          }else{
+            y="1";
+          }
+      }
+      function dem2()
+      {
+        let name = document.querySelector('#rooms').value;
+          let regx = /([0-9]{0,20})/;
+          let myinfo = document.querySelector('#in3');
+          let myinfo1 = document.querySelector('#in');
+
+          if(regx.test(name)){
+            x="2";
+          }else{
+            x="1";
+          }
+      }
+
+      function date3()
+      {
+        let name = document.querySelector('#date1').value;
+          let regx = /([0-9]{0,20})/;
+          let myinfo = document.querySelector('#ff');
+          let myinfo1 = document.querySelector('#in');
+
+          if(regx.test(name)){
+            d1="2";
+          }else{
+            d1="1";
+          }
+      }
+      function date4()
+      {
+        let name = document.querySelector('#date2').value;
+          let regx = /([0-9]{0,20})/;
+          let myinfo = document.querySelector('#ff');
+          let myinfo1 = document.querySelector('#in');
+
+          if(regx.test(name)){
+            d2="2";
+            name.style.color="green";
+            name.style.background="red";
+          }else{
+            d2="1";
+          }
+      }
+
+    function validate()
+    {
+      let myinfo = document.querySelector('#info8');
+
+
+      if(a=="2"&&b=="2"&&c=="2"&&d=="2"&&e=="2"&&g=="2"&&x=="2"&&y=="2"&&z=="2"&&d1=="2"&&d2=="2")
+      {
+        myinfo.innerHTML = "Thank You For Choosing Us";
+        myinfo.style.color = "green";
+      myinfo.style.fontSize = "2rem";
+      myinfo.style.fontWeight = "bold";
+      myinfo.style.margin = "10px";
+      alert("Thank You For Choosing Us")
+
+    }else{
+      myinfo.innerHTML = "Fill All The Blocks";
+      myinfo.style.color = "red";
+      myinfo.style.fontSize = "2rem";
+      myinfo.style.fontWeight = "bold";
+      myinfo.style.margin = "10px";
+    }
+    }
+        </script>   
+</body>
+</html>

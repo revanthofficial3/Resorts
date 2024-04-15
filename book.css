@@ -1,0 +1,350 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+@font-face {
+    font-family: calli;
+    src: url(./images/fonts/calligraphy/CalligraphyFLF.ttf);
+}
+@font-face {
+    font-family: high;
+    src: url(./images/fonts/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.book_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.book_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.book_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:40%;
+    font-size:2.7rem;
+    /* font-family: speed; */
+    color:white;
+    background-color: rgba(0, 0, 0, .0);
+}
+/* book */
+.book_story
+{
+    background-image: url(./images/image3/banner/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 145vh;
+     /*filter: blur(1px); */
+    /* position: relative; */
+}
+.book_center
+{
+   display: flexbox;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+.book_story_common1
+{
+    position: relative; 
+    
+}
+.book_story_common
+{
+    text-align: center;
+    display:inline-block;
+    margin:20px 10%;
+    padding:15px 35px;
+    /* background-color: rgb(1, 118, 190); */
+   /* background: rgb(0,0,0); */
+   background: rgba(0, 0, 0, 0.2);
+   height: auto;
+    position: absolute;
+    /* top:105%; */
+    top:0px;
+    left:15%;
+    width:50vw;
+    border-radius:20px;
+    
+}
+.book_head1
+{
+    font-size:2rem;
+    font-family: high;
+    text-align: center;
+    color:rgb(255, 0, 119);
+    margin: 20px 20px;
+}
+/* input */
+input[type="text"],input[type="email"],input[type="number"],input[type="search"],
+input[type="area"]
+{
+    padding:5px 40px 5px 5px;
+    font-family: high;
+    font-size:1.1rem;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    /* color:black; */
+    margin:5px 0px;
+    
+    /* background:  rgba(0, 0, 0, 0.8); */
+    cursor: pointer;
+}
+input[type="date"]
+{
+    /* padding:5px 5px 5px 30px; */
+    font-family: high;
+    font-size:1.1rem;
+    text-align: center;
+    border-radius: 10px;
+    outline:none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    color:rgb(0, 0, 0);
+    margin:5px 0px;
+    cursor: pointer;
+}
+
+textarea,select
+{
+    padding:5px;
+    font-size:1.1rem;
+    text-align: center;
+    border-radius: 10px;
+    outline:none;
+    border:2px solid white;
+    margin:5px 0px;
+    /* color:rgb(184, 0, 86); */
+    /* color: rgb(112, 111, 111); */
+    font-family: high;
+    cursor: pointer;
+}
+textarea
+{
+    width:70%;
+    height:50%;
+    padding:5px 40px 5px 30px;
+    
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,
+input[type="number"]::placeholder,textarea::placeholder
+ {
+    color:rgb(119, 119, 116);
+  }
+input[type="text"]:focus,textarea:focus,select:focus,
+input[type="email"]:focus,input[type="number"]:focus
+{
+    border-bottom: 2px solid rgb(184, 0, 86);
+    color:black;
+}
+input[type="text"]:hover,textarea:hover,select:hover,input[type="date"]:hover,
+input[type="email"]:hover,input[type="number"]:hover
+{
+    border-bottom: 2px solid rgb(184, 0, 86);
+}
+input[type="date"]::-webkit-calender-picker-indicator
+{
+    background-color: aqua;
+}
+input[type="number"]
+{
+    width:80%;
+    outline:none;
+    -moz-appearance: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    
+}
+.in 
+{
+    font-family:high;
+    font-size:1.1rem;
+    color:rgb(251, 255, 0);
+    position: relative;
+    /* right:50px; */
+}
+.out
+{
+    font-family:high;
+    font-size:1.1rem;
+    color:rgb(251, 255, 0);
+    position: relative;
+    /* left:50px; */
+}
+.date1
+{
+    display:inline;
+    position: relative;
+    /* left:90px; */
+}
+.date2
+{
+    display: inline;
+    
+}
+.btn-text-dark
+{
+    font-weight: bold;
+    color:rgb(255, 225, 0);
+    border:3px solid white; 
+}
+/* map */
+.map
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* subscribe */
+.btn-text-dark1
+{
+    
+}
+.book_head2
+{
+    font-size:1.4rem;
+    font-family: high;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin: 20px 20px;
+}
+.subscribe
+{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgb(232, 164, 164);
+   padding:8px 0px 20px 0px;
+}
+#email1
+{
+    width:25vw;
+    padding:2px;
+}
+.subscribe_box
+{
+    height:auto;
+    width:97%; 
+    display:block;
+    /* background-color: aqua; */
+    text-align: center;
+    margin:20px 5px;
+}
+.common_date
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2px;
+    margin:auto;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+.book_story_common
+{
+    width:90%;
+    padding:15px 0px;
+    left:-20px;
+}
+.book_story
+{
+
+    height: 140vh;
+}
+.common_date
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+#email1
+{
+    width:55vw;
+    padding:2px;
+    display:block;
+    text-align: center;
+    margin: 5px auto;
+}
+.pagination
+{
+    display: none;
+}
+}
+
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1000px) {
+    .book_story_common
+    {
+        width:90%;
+        padding:15px 0px;
+        left:-25px;
+    }
+    .book_banner
+    {
+        height:77vh;
+    }
+    .book_banner_head
+    {
+        font-size:3rem;
+        left:35%;
+    }
+    .book_head1,.book_head2
+    {
+        font-size:2.7rem;
+    }
+    .book_story
+    {
+    
+        height: 127vh;
+    }
+    .common_date
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    input[type="text"],input[type="email"],input[type="number"],input[type="search"],
+    input[type="area"],textarea,input[type="date"],.in,.out,.btn-text-dark,
+    #info8
+    {
+        /* font-size:2.6rem; */
+        font-size:40px;
+    }
+    select 
+    {
+        font-size:25px;
+    }
+    #email1
+    {
+        width:55vw;
+        padding:2px;
+        display:block;
+        text-align: center;
+        margin: 5px auto;
+    }
+    }

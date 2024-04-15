@@ -1,0 +1,360 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+@font-face {
+    font-family: calli;
+    src: url(./images/fonts/calligraphy/CalligraphyFLF.ttf);
+}
+@font-face {
+    font-family: high;
+    src: url(./images/fonts/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.facility_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.facility_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.facility_banner_head
+{
+    position:absolute;
+    top:30%;
+    left:35%;
+    font-size:2.7rem;
+    /* font-family: speed; */
+    color:rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .0);
+}
+.card_common
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    margin:20px;
+}
+.rooms_head,.indoor_head1,.outdoor_head1,.water_head1
+{
+    font-size:2rem;
+    font-family: high;
+    text-align: center;
+    color:rgb(26, 173, 0);
+    margin: 10px;
+}
+.rooms_para,.indoor_para1,.outdoor_para1,.water_para1
+{
+    font-size:1.7rem;
+    font-family: calli;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 8px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rooms_img
+{
+    overflow: hidden;
+}
+.rooms_head3
+{
+    font-weight: bold;
+    margin-left: 5px;
+    color:rgb(245, 237, 3);
+}
+.card-body,.list-group-item
+{
+    background-color: orangered;
+    color:white;
+}
+.card-img-top
+{
+    transform: scale(1);
+    transition: .2s;
+    
+}
+.card-img-top:hover
+{
+    transform: scale(1.5);
+    overflow: hidden;
+}
+.card-title
+{
+    /* font-size:2rem; */
+    font-family: high;
+    color:rgb(245, 237, 3);
+}
+.card-text,.list-group-item
+{
+    font-family: calli;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+.indoor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.indoor_common
+{
+    height:330px;
+    width:330px;
+    transition: .3s;
+    transform: rotate(0deg);
+    box-shadow: 3px 3px 5px grey,-4px -4px 6px grey;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.indoor_common:hover
+{
+    transform: rotate(360deg);
+}
+.indoor_common1
+{
+    padding:2px 10px;background-color: rgb(173, 162, 10);
+    color: white;
+    /* line-height: 27px; */
+    border-top-left-radius:10px;
+    display: none;
+    padding:10px;
+}
+.indoor_common > :first-child
+{
+    display: block;
+    
+}
+.indoor_common:hover > :first-child
+{
+    display: none;
+    /* height:100px; */
+    transform: rotate(360deg);
+}
+.indoor_common:hover > :last-child
+{
+    display: block;
+    transform: rotate(360deg);
+   
+}
+.indoor_img
+{
+    border-radius: 30px;
+    height:100%;
+    width: 100%;
+}
+.indoor_head2
+{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: high;
+    color:greenyellow;
+}
+.indoor_para
+{
+    font-size:1rem;
+    font-family:typo;
+    text-align: center;
+    word-spacing: 2px;
+    color:white;
+    line-height: 28px;
+    padding:3px;
+}
+/* outdoor */
+.outdoor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.outdoor_common
+{
+    height:330px;
+    width:330px;
+    transition: .3s;
+    transform: skew(0deg);
+    box-shadow: 3px 3px 5px grey,-4px -4px 6px grey;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.outdoor_common:hover
+{
+    transform: skew(-10deg);
+}
+.outdoor_common1
+{
+    padding:2px 10px;background-color: rgb(173, 45, 10);
+    color: white;
+    /* line-height: 27px; */
+    border-top-left-radius:10px;
+    display: none;
+    padding:10px;
+}
+.outdoor_common > :first-child
+{
+    display: block;
+    
+}
+.outdoor_common:hover > :first-child
+{
+    display: none;
+    /* height:100px; */
+    
+}
+.outdoor_common:hover > :last-child
+{
+    display: block;
+    
+   
+}
+.outdoor_img
+{
+    border-radius: 30px;
+    height:100%;
+    width: 100%;
+}
+.outdoor_head2
+{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: high;
+    color:rgb(232, 254, 38);
+}
+.outdoor_para
+{
+    font-size:1rem;
+    font-family:typo;
+    text-align: center;
+    word-spacing: 2px;
+    color:white;
+    line-height: 28px;
+    padding:3px;
+}
+/* water games */
+.water_img_common
+{
+     display:flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap:wrap;
+    margin:10px 10%;
+}
+.water_img_common1
+{
+    overflow: hidden;
+    border: 5px solid rgb(222, 1, 86);
+    height:200px;
+    width:250px;transform: scale(1);
+    border-radius: 20px;
+    transition: .5s;
+    margin:10px;
+    box-shadow: 2px 2px 3px grey,2px 2px 3px grey;
+}
+.water_img 
+{
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+}
+.water_img:hover
+{
+    transform: scale(1.5);
+}
+
+
+
+
+@media screen and (max-width:500px) 
+{
+.facility_banner_head
+{
+    top:30%;
+    left:28%;
+    font-size:3rem;  
+}
+.rooms_head,.indoor_head1,.outdoor_head1,.water_head1
+{
+    font-size:3.3rem;
+    
+}
+.rooms_para,.indoor_para1,.outdoor_para1,.water_para1
+{
+    font-size:2.5rem;
+    line-height:40px;
+}
+.room_head3,.card-text
+{
+    font-size:2.2rem;
+    line-height: 35px;
+}
+.indoor_common,.outdoor_common
+{
+    width:200px;
+}
+.pagination
+{
+    display: none;
+}
+}
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1000px)
+{
+    .facility_banner
+    {
+        height:78vh;
+    }
+.facility_banner_head
+{
+    top:30%;
+    left:26%;
+    font-size:3.3rem;  
+}
+.rooms_head,.indoor_head1,.outdoor_head1,.water_head1
+{
+    font-size:3.3rem;
+    
+}
+.rooms_para,.indoor_para1,.outdoor_para1,.water_para1
+{
+    font-size:3rem;
+    line-height:40px;
+}
+.room_head3,.card-text
+{
+    font-size:2.5rem;
+    line-height: 35px;
+}
+
+}

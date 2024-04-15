@@ -1,0 +1,232 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+@font-face {
+    font-family: calli;
+    src: url(./images/fonts/calligraphy/CalligraphyFLF.ttf);
+}
+@font-face {
+    font-family: high;
+    src: url(./images/fonts/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+@font-face {
+    font-family: typo;
+    src: url(./images/fonts/organo/Organo.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.active1
+{
+    font-weight: bolder;
+    color: black;
+    background-color: aqua;
+}
+.conference_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.conference_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.conference_banner_head
+{
+    position:absolute;
+    top:32%;
+    left:38%;
+    font-size:2.7rem;
+    font-family: blkcry;
+    color:rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .0);
+}
+.conference_head1
+{
+    font-size:1.8rem;
+    font-weight: bolder;
+    font-family:speed;
+    text-align: center;
+    margin:20px 0px;
+    color:rgb(23, 0, 175);
+}
+.conference_para1
+{
+    font-size:1.2rem;
+    font-family: high;
+    text-align: justify;
+    text-indent: 20px;
+    word-spacing: 10px;
+    line-height: 40px;
+    margin:10px 10%;
+    /* color: rgb(255, 88, 58); */
+}
+.conference_img_common
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:10px 15%;
+    gap: 30px;
+}
+.conference_img_common1
+{
+    overflow: hidden;
+    height:200px;
+    width:100%;
+    transform: scale(1);
+    transition: .2s;margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px grey,-4px -4px 6px grey;
+}
+.conference_img:hover
+{
+    transform: scale(1.4);
+}
+.conference_img
+{
+    height:100%;
+    width:100%
+}
+/* section 2 */
+.conference_section2
+{
+    background-color: rgb(249, 134, 113);
+    padding:30px;
+}
+.conference_common
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: autofit;
+    margin: 10px 10%;
+    gap:20px;
+}
+.conference_img2_common1
+{
+    height:35vh;
+    width:100%;
+    border: 5px solid white;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s;
+    overflow: hidden;
+}
+.conference_img2
+{
+    width:100%;
+    height:100%;
+}
+.conference_img2:hover
+{
+    transform: scale(1.4);
+}
+.conference_para2
+{
+    font-size:1.2rem;
+    font-family: high;
+    text-align: justify;
+    text-indent: 20px;
+    word-spacing: 10px;
+    margin:10px 0px;
+    color: rgb(234, 234, 234);
+    /* height:500px; */
+}
+/* section 3 */
+.conference_img3_common
+{
+     display:flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap:wrap;
+    margin:10px 10%;
+}
+.conference_img3 
+{
+    height:200px;
+    width:250px;
+    margin:15px;
+    border: 5px solid rgb(255, 88, 58);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px grey,2px 2px 3px grey;
+    transform: skew(0deg);
+    transition: .5s;
+}
+.conference_img3:hover
+{
+    transform: skew(15deg);
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+.conference_banner_head
+{
+    position:absolute;
+    top:32%;
+    left:18%;
+    font-size:3rem;
+    
+}
+.conference_img_common
+{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.conference_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pagination
+{
+    display: none;
+}
+
+}
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1000px) {
+    .conference_banner_head
+    {
+        position:absolute;
+        top:32%;
+        left:18%;
+        font-size:3.5rem;
+        
+    }
+    .conference_img_common
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .conference_common
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .conference_head1
+    {
+        font-size:2.7rem;
+    }
+    .conference_para1,.conference_para2
+    {
+        font-size:2.2rem;
+    }
+    
+    }

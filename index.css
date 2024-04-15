@@ -32,6 +32,7 @@
 .logo
 {
     border-radius: 50%;
+    cursor: pointer;
 }
 .nav-link,.dropdown-item
 {
@@ -43,13 +44,13 @@
 }
 .navbar-nav
 {
-    margin-left: 10%;
+    margin-left: 40px;
 }
 .btn-text
 {
     font-size: 1.2rem;
     font-weight: bold;
-   margin-right: 20%;
+   margin-right: 80px;
 }
 .nav-link:hover
 {
@@ -61,8 +62,8 @@
 .d-block
 {
     width:100%;
-    height:600px;
-    /* height: auto; */
+    /* height:600px; */
+    height: 75vh;
 }
 /* arrow up */
 .up_head
@@ -79,14 +80,16 @@
 }
 .up_icon
 {
-    margin:15px;
+    margin:0px 15px 0px 0px;
     position:fixed;
+    z-index: 2;
 }
+/* board */
 .front_common
 {
     display: grid;
     grid-template-columns: 1fr .5fr; 
-    column-gap:5px;
+    gap:55px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 50px;
@@ -113,7 +116,9 @@
     font-size: 1.4rem;
     font-family: dream;
     margin:10px 0px;
+    line-height: 35px;
     word-spacing: 10px;
+    color:rgb(0, 179, 255);
 }
 .front_para
 {
@@ -136,40 +141,24 @@
 .front_img_grid
 {
     display: flex;
-    flex-wrap:wrap-reverse;
-    margin-top: 15%;
+    flex-wrap:wrap;
+    align-items: center;
     justify-content: center;
 }
 .front_img_grid1
 {
     display: flex;
-    flex-wrap:wrap-reverse;
+    flex-wrap:wrap;
     justify-content: center;
-    margin-top: 15%;
-    /* margin-right: -12%; */
+    align-items: center;
 }
 .front_img
 {
     height: 150px;
     width:auto;
+    border: 3px solid rgb(255, 255, 255);
 }
-.front_img1
-{
-    
-}
-.front_img2
-{
-   
-}
-.front_img3
-{
-    
-    
-}
-.front_img4
-{
-    
-}
+/* facility */
 .facilities_head2,.review_head
 {
     font-weight: bolder;
@@ -178,7 +167,7 @@
     font-family: mango;
     color:rgb(0, 179, 255);
     margin-top: 10px;
-    
+    font-size: 3rem;
 }
 .facilities_para
 {
@@ -192,7 +181,7 @@
 .facilities_common
 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .facilities_card
@@ -251,6 +240,7 @@
     font-family: dream;
     position: relative;
 }
+/* explore */
 .explore
 {
      background-color:rgb(255, 179, 0);
@@ -299,11 +289,13 @@
 {
     text-align: center;
 }
+/* review */
 .review
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .review_common
 {
@@ -362,6 +354,7 @@
    
     
 }
+/* accordion */
 .accordion
 {
     margin-left: 10%;
@@ -388,6 +381,13 @@
     font-size:1rem;
     font-family:typo;
 }
+/* pagination */
+.pagination
+{
+    margin:15px 20px;
+    
+}
+/* footer */
 footer
 {
     background-color: rgb(209, 104, 0);
@@ -463,8 +463,62 @@ footer
     font-size: 1.2rem;
     font-weight: bold;
     margin-left: 33%;
-}   
 }
+.d-block
+{
+    width:100%;
+    /* height:600px; */
+    height: 70vh;
+} 
+.front_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.front_common1
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.explore_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:5px;
+}
+.explore_img
+{
+    height:auto;
+    width:300px;
+    margin: 0px auto;
+}
+.explore_img1
+{
+    height:auto;
+    width:300px;
+    margin: 0px auto;
+    
+}
+.footer_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pagination
+{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width:750px)  and (max-width:1000px)
@@ -483,7 +537,62 @@ footer
 }
 .btn-text
 {
-    font-size: 1.7rem;
-   margin-right: 100px;
-}   
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 38%;
+}  
+.front_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.front_common1
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.facilities_head2
+{
+    font-size:4rem;
+}
+.facilities_common
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.explore_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:0px 10%;
+}
+.review_para
+{
+    font-size: 1.2rem;
+}
+.accordion-button
+{
+    font-size:2rem;
+}
+.accordion-body
+{
+    font-size:1.8rem;
+}
+.page-link
+{
+    font-size:2rem;
+}
+.footer_common
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer_head1
+{
+    font-size:2rem;
+}
+.footer_para
+{
+    font-size:1.5rem;
+}
 }

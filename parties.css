@@ -1,0 +1,252 @@
+@font-face {
+    font-family: speed;
+    src: url(./images/fonts/SpeedballNo1NF-Bold.ttf);
+}
+@font-face {
+    font-family: calli;
+    src: url(./images/fonts/calligraphy/CalligraphyFLF.ttf);
+}
+@font-face {
+    font-family: high;
+    src: url(./images/fonts/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+@font-face {
+    font-family: typo;
+    src: url(./images/fonts/organo/Organo.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    
+}
+.active1
+{
+    font-weight: bolder;
+    color: black;
+    background-color: aqua;
+}
+.parties_banner
+{
+    height:70vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} 
+.parties_banner_img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.parties_banner_head
+{
+    position:absolute;
+    top:45%;
+    left:43%;
+    font-size:2.7rem;
+    font-family: blkcry;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, .0);
+}
+/* parties section1 */
+.parties_section1
+{
+    background-color: rgb(165, 98, 228);
+    padding:20px 0px;
+}
+.parties_head1
+{
+    font-size:1.8rem;
+    font-family:dream;
+    text-align: center;
+    margin:20px 0px;
+    color:rgb(106, 247, 223);
+}
+.parties_para1
+{
+    font-size:1.4rem;
+    font-family: high;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 40px;
+    margin:10px 10%;
+    color: white;
+}
+.parties_img_common
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.parties_img_common1
+{
+    overflow: hidden;
+    height:auto;
+    width:310px;
+    transform: scale(1);
+    transition: .2s;margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px grey,-4px -4px 6px grey;
+}
+.parties_img
+{
+    height: 100%;
+    width:100%;
+}
+.parties_img:hover
+{
+    transform: scale(1.4);
+}
+/* img 2 */
+.parties_img2_com
+{
+    display:grid;
+    grid-template-columns: .5fr 1.5fr .5fr;
+    margin: 10px 10%;
+    border-radius: 10px;
+    top:0px;
+    left:0px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+}
+.parties_story_common2
+{
+    position: relative;
+}
+.parties_story
+{
+    background-image: url(./images/image3/parties/aleksandr-popov-k6MxhKAC6gk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;filter: blur(1px);
+    position: relative;
+}
+.parties_img_common2
+{
+    overflow: hidden;
+    height:auto;
+    width:220px;
+    transform: scale(1);
+    transition: .2s;margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px grey,-4px -4px 6px grey;
+}
+.parties_img2_common
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.parties_para2
+{
+    font-size:1.4rem;
+    font-family: high;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 40px;
+    height:95vh;
+    overflow: hidden;
+    /* margin:10px 10%; */
+    color:  rgb(170, 255, 0);
+}
+/* last part */
+.parties_para3
+{
+    font-size:1.4rem;
+    font-family: high;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 40px;
+    margin:10px 10%;
+    color: rgb(125, 50, 196);
+}
+.parties_img3_common
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 5%;
+}
+
+
+@media screen and (max-width:500px) {
+
+.parties_banner_head
+{
+    top:45%;
+    left:28%;
+    font-size:3.3rem;    
+}
+.parties_img2_common
+{
+    display: none;
+}
+.parties_story
+{
+   
+    height: 130vh
+}
+.parties_para2
+{
+    width: 70vw;
+    height:120vh;
+    margin: 20px;
+}
+.pagination
+{
+    display: none;
+}
+
+}
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1000px){
+
+.parties_banner_head
+{
+    top:45%;
+    left:38%;
+    font-size:4rem;    
+}
+.parties_banner
+{
+    height:77vh;
+}
+.parties_img2_common
+{
+    display: none;
+}
+.parties_story
+{
+   
+    height: 77vh
+}
+.parties_para2
+{
+    width: 70vw;
+    height:72vh;
+    margin: 20px;
+    font-size: 2.4rem;
+    line-height: 50px;
+    
+}
+.parties_head1
+{
+    font-size:2.3rem;
+}
+
+.parties_para1,.parties_para2,.parties_para3
+{
+    font-size: 2rem;
+}
+}
