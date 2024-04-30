@@ -226,3 +226,9 @@
 }
     
 }
+
+@media screen and (min-width:1200px) {
+.gallery_banner{
+    height:77vh;
+}
+}

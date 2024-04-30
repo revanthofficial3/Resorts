@@ -311,3 +311,18 @@
     font-size:3.2rem;
 }
 }
+
+
+
+@media screen and (min-width:1200px) {
+
+.facility_banner{
+    height:77vh;
+}
+.gym_img_common{
+    padding:0px 10%;
+}
+.parlour,.pool_img_common{
+    padding:0px 10%;
+}  
+}

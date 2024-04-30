@@ -191,3 +191,20 @@
 }
     
 }
+
+@media screen and (min-width:1200px) {
+.wedding_banner{
+    height:77vh;
+}
+.wedding_common{
+    display:grid;
+  
+}
+.wedding_img{
+    height:30vh;
+}
+.wedding_para{
+    word-spacing: 30px;
+    line-height: 40px;;
+}
+}

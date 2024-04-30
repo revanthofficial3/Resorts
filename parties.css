@@ -250,3 +250,22 @@
     font-size: 2rem;
 }
 }
+
+@media screen and (min-width:1200px) {
+.parties_banner{
+    height:77vh;
+}
+.parties_img2_com
+{
+    height:40vh;
+}
+.parties_story{
+    height: 43vh;;
+}
+.parties_img2_common{
+    height:200px;
+}
+.parties_img3_common{
+    padding:0px 10%;
+}
+}

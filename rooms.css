@@ -358,3 +358,17 @@
 }
 
 }
+
+
+@media screen and (min-width:1200px) {
+.facility_banner{
+    height:77vh;
+}
+.indoor,.outdoor{
+    padding:0px 15%;
+}
+.water_img_common{
+    padding:0px 10%;
+
+}
+}

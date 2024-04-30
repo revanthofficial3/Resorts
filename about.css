@@ -452,3 +452,75 @@ hr
     margin: 15px;
 }
 }
+
+@media screen and (min-width:1200px) {
+.about_banner_head
+{
+    position:absolute;
+    top:20%;
+    left:45%;
+}
+.about_banner
+{
+    height:77vh;
+}
+.about_story_head2
+{
+    font-size:1.5rem;
+    
+}
+.about_story_para
+{
+    font-size:1.3rem;
+}  
+.about_mission
+{
+    height: 60vh;
+    
+}
+.about_mission_common
+{
+    
+    height: 55vh;
+    overflow: hidden;
+    
+}
+.about_mission_head2
+{
+    font-size:1.5rem;
+    
+}
+.about_mission_para
+{
+    font-size:1.3rem;
+} 
+.about_vision
+{
+    
+    height: 85vh;
+}
+.about_vision_common
+{   
+    height:80vh;
+
+}
+.about_img1
+{
+    height:auto;
+    width:300px;
+    margin: 15px;
+}
+.about_story_common
+{
+    
+    height: 70vh;
+    overflow: hidden;
+    
+}
+.about_story{
+    height:76vh;
+}
+.employee_common{
+    padding:0px 10%;
+}
+}
